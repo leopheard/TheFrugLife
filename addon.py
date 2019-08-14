@@ -11,12 +11,12 @@ def main_menu():
     """
     items = [
         {
-            'label': plugin.get_string(30000), 
+            'label': plugin.get_string(30000),
             'path': plugin.url_for('all_episodes'),
             'thumbnail': "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/1674278/1674278-1564177705682-bea0801e2e24b.jpg"},
    {
-            'label': plugin.get_string(30001), 
-            'path': plugin.url_for('latest_episodes')
+            'label': plugin.get_string(30001),
+            'path': plugin.url_for('latest_episodes'),
             'thumbnail': "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/1674278/1674278-1564177705682-bea0801e2e24b.jpg"},
    ]
     return items
