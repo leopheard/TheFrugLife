@@ -13,11 +13,11 @@ def main_menu():
         {
             'label': plugin.get_string(30000), 
             'path': plugin.url_for('all_episodes'),
-            'thumbnail': "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/1674278/1674278-1564177704383-f883ed89d0c05.jpg"},
+            'thumbnail': "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/1674278/1674278-1564177705682-bea0801e2e24b.jpg"},
    {
             'label': plugin.get_string(30001), 
             'path': plugin.url_for('latest_episodes')
-            'thumbnail': "https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/1674278/1674278-1564177704383-f883ed89d0c05.jpg",
+            'thumbnail': "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/1674278/1674278-1564177705682-bea0801e2e24b.jpg"},
    ]
     return items
 
